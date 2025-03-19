@@ -4,15 +4,41 @@ body {
 }
 
 .genero-container {
-  margin: 20px;
-  padding: 20px;
-  border: 1px solid #ccc;
-  background-color: #f8f8f8;
-}
+  display: flex;
+  flex-wrap: wrap;
+  justify-items: center;
+  margin: 10px;
+  padding: 10px;
+  border: 5px solid #ccc;
+  background-color: gray;
+  width: 100%;}
 
 h2 {
-  font-size: 1.5rem;
+  font-size: 1rem;
   margin-bottom: 10px;
 }
 
+div {
+  display: flex;
+  justify-content: space-around;
+  background-color:rgb(91, 91, 96);
+  height: 150px;
+  text-align:start
+ 
+ 
+}
+
+section {
+  margin: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+
+}
+
+img {
+  
+  width: 100%;
+  align-content: flex-start;
+}
 
